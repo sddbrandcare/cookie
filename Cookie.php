@@ -2,11 +2,13 @@
 
 namespace SddBrandCare\Cookie;
 
+use Symfony\Component\HttpFoundation\Cookie as CookieSymfony;
+
 /**
  * Represents a cookie.
  *
  */
-class Cookie
+class Cookie extends CookieSymfony
 {
     protected $name;
     protected $value;
