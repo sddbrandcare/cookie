@@ -3,9 +3,9 @@
 namespace SddBrandCare\Cookie\Middleware;
 
 use Closure;
-use Symfony\Component\HttpFoundation\Cookie;
+use SddBrandCare\Cookie\Cookie;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
+use SddBrandCare\Cookie\Response;
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Contracts\Encryption\Encrypter as EncrypterContract;
 
