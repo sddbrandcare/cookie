@@ -2,7 +2,7 @@
 
 namespace SddBrandCare\Cookie;
 
-use Symfony\Component\HttpFoundation\Response as ResponseSymfony;
+use Illuminate\Http\Response as ResponseSymfony;
 
 /**
  * Response represents an HTTP response.
