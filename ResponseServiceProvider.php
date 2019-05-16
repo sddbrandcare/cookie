@@ -13,7 +13,7 @@ class ResponseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('sddResponse', function ($app) {
+        $this->app->singleton('Illuminate\Contracts\Routing\ResponseFactory', function ($app) {
             return new ResponseFactory($app['Illuminate\Contracts\View\Factory'], $app['redirect']);
         });
     }
