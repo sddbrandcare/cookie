@@ -13,6 +13,6 @@ class Response extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'sddResponse';
+        return 'Illuminate\Contracts\Routing\ResponseFactory';
     }
 }
